@@ -17,6 +17,10 @@ flavorDimensions "architecture"
         }
     }
     
+    ....
+    armCompile(name: 'ffmpeg_arm.0.3.2', ext: 'aar')
+    x86Compile(name: 'ffmpeg_x86.0.3.2', ext: 'aar')
+    
     
 Please keep in mind that compiled aar files should be located in app/libs.
 
